@@ -1,0 +1,5 @@
+table-appartenance-geo-communes-15.xls
+INSEE
+http://www.insee.fr/fr/methodes/default.asp?page=zonages/table-appartenance-geo-communes.htm
+http://www.insee.fr/fr/methodes/zonages/communes/table-appartenance-geo-communes-15.zip
+

@@ -1,0 +1,65 @@
+
+{% extends 'activelife/base.html' %}
+
+{% load staticfiles %}
+
+{% block block_head %}
+	<link rel="stylesheet" type="text/css" href="{% static 'activelife/css/tree_mbostock_ACTIVELIFE_head.css' %}">
+{% endblock %}
+
+
+{% block block_body %}
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+treeUrl = "{% url 'activelife:getTreeForROME_JSON__1' 3 %}"
+</script>
+<script src="{% static 'activelife/js/tree_mbostock_ACTIVELIFE_body.js' %}"></script>
+
+<form method="POST">{% csrf_token %}
+	{% if form.typetiersCharge == "Candidat" or form.typetiersCharge == "Recruteur" %}
+		Tiers de type {{ form.typetiersCharge }} <BR>
+		{% for field in form.visible_fields %}
+			{% if field.name != "typetiers" and field.name != "identPE" and field.name != "SIRET" and field.name != "raisonSociale" %}
+				<div class="fieldWrapper">
+					{{ field.errors }}
+					{{ field.label_tag }} {{ field }}
+				</div>
+			{% endif %}
+			{% if form.typetiersCharge == "Candidat" %}
+				{% if field.name == "identPE" %}
+					<div class="fieldWrapper">
+						{{ field.errors }}
+						{{ field.label_tag }} {{ field }}
+					</div>
+				{% endif %}
+			{% endif %}
+			{% if form.typetiersCharge == "Recruteur" %}
+				{% if field.name == "raisonSociale" %}
+					<div class="fieldWrapper">
+						{{ field.errors }}
+						{{ field.label_tag }} {{ field }}
+					</div>
+				{% endif %}
+				{% if field.name == "SIRET" %}
+					<div class="fieldWrapper">
+						{{ field.errors }}
+						{{ field.label_tag }} {{ field }}
+					</div>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% else %}
+		{% for field in form.visible_fields %}
+			<div class="fieldWrapper">
+				{{ field.errors }}
+				{{ field.label_tag }} {{ field }}
+			</div>
+		{% endfor %}
+	{% endif %}
+	<button type="submit" class="save btn btn-default">Save</button>
+</form>
+<br/>
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+{% endblock %}

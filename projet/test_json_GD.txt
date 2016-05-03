@@ -1,0 +1,102 @@
+{
+	u 'help' : u 'https://api.emploi-store.fr, api.emploi-store.fr/api/3/action/help_s
+	how?name=datastore_search',
+	u 'success' : True,
+	u 'result' : {
+		u 'fields' : [{
+				u 'type' :
+				u 'int4',
+				u 'id' : u '_id'
+			}, {
+				u 'type' : u 'text',
+				u 'id' : u 'MAIN_PROF_AREA_CODE'
+			}, {
+				u 't
+				ype' : u 'text',
+				u 'id' : u 'MAIN_PROF_AREA_NAME'
+			}
+		],
+		u 'total' : 14,
+		u '_links' : {
+			u 'star
+			t' : u '/api/action/datastore_search?resource_id=e5eba2a1-d8f4-4762-abc2-cb8bb0068
+			6d4',
+			u 'next' : u '/api/action/datastore_search?offset=100&resource_id=e5eba2a1-d8
+			f4-4762-abc2-cb8bb00686d4'
+		},
+		u 'records' : [{
+				u 'MAIN_PROF_AREA_NAME' : u 'AGRICULTURE
+				 ET P\xcaCHE, ESPACES NATURELS ET ESPACES VERTS, SOINS AUX ANIMAUX',
+				u '_id' : 1,
+				u 'MAIN_PROF_AREA_CODE' : u 'A'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u "ARTS ET FACONNAGE D''O
+				UVRAGES D''ART",
+				u '_id' : 2,
+				u 'MAIN_PROF_AREA_CODE' : u 'B'
+			}, {
+				u 'MAIN_PROF_AREA_NAM
+				E' : u 'BANQUE, ASSURANCE, IMMOBILIER',
+				u '_id' : 3,
+				u 'MAIN_PROF_AREA_CODE' : u 'C'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u 'COMMERCE, VENTE ET GRANDE DISTRIBUTION',
+				u '_id' : 4,
+				u
+				'MAIN_PROF_AREA_CODE' : u 'D'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u 'COMMUNICATION, MEDIA ET
+				 MULTIMEDIA',
+				u '_id' : 5,
+				u 'MAIN_PROF_AREA_CODE' : u 'E'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' :
+				u 'CONSTRUCTION, B\xc2TIMENT ET TRAVAUX PUBLICS',
+				u '_id' : 6,
+				u 'MAIN_PROF_AREA_CO
+				DE' : u 'F'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u 'TRANSPORT ET LOGISTIQUE',
+				u '_id' : 7,
+				u 'MA
+				IN_PROF_AREA_CODE' : u 'N'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u "SUPPORT A L''ENTREPRISE",
+				u '_id' : 8,
+				u 'MAIN_PROF_AREA_CODE' : u 'M'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u 'SPECTACLE',
+				u '_id' : 9,
+				u 'MAIN_PROF_AREA_CODE' : u 'L'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u 'H\xd4TELLE
+				RIE- RESTAURATION TOURISME LOISIRS ET ANIMATION',
+				u '_id' : 10,
+				u 'MAIN_PROF_AREA_C
+				ODE' : u 'G'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u 'SERVICES A LA PERSONNE ET A LA COLLECTIV
+				ITE',
+				u '_id' : 11,
+				u 'MAIN_PROF_AREA_CODE' : u 'K'
+			}, {
+				u 'MAIN_PROF_AREA_NAME' : u 'INST
+				ALLATION ET MAINTENANCE',
+				u '_id' : 12,
+				u 'MAIN_PROF_AREA_CODE' : u 'I'
+			}, {
+				u 'MAIN_PRO
+				F_AREA_NAME' : u 'SANTE',
+				u '_id' : 13,
+				u 'MAIN_PROF_AREA_CODE' : u 'J'
+			}, {
+				u 'MAIN_PROF_
+				AREA_NAME' : u 'INDUSTRIE',
+				u '_id' : 14,
+				u 'MAIN_PROF_AREA_CODE' : u 'H'
+			}
+		],
+		u 'resource
+		_id' : u 'e5eba2a1-d8f4-4762-abc2-cb8bb00686d4'
+	}
+}

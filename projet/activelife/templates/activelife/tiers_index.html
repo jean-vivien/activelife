@@ -1,0 +1,36 @@
+﻿
+{% extends 'activelife/base.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+<div>
+{% if candidat_list %}
+	<div>Candidats</div>
+	<ul>
+	{% for candidat in candidat_list %}
+		<li><a href="{% url 'activelife:saisir_tiers' candidat.id %}">{{ candidat }}</a></li>
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>Pas de candidat enregistré.</p>
+{% endif %}
+</div>
+
+<div>
+{% if recruteur_list %}
+	<div>Recruteurs</div>
+	<ul>
+	{% for recruteur in recruteur_list %}
+		<li><a href="{% url 'activelife:saisir_tiers' recruteur.id %}">{{ recruteur }}</a></li>
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>Pas de recruteur enregistré.</p>
+{% endif %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+pe_source,description,url
+ROME_LIEN_ROME_REF,Liens entre les métiers ROME et les autres référentiels ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_LIEN_ROME_REF/1/ROME_LIEN_ROME_REF.csv
+DOC_ROME,Documentation relative au jeu de données ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/DOC_ROME/1/DOC_ROME.pdf
+REF_CODE_ROME,Référentiel des métiers du ROME (codes ROME),http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/REF_CODE_ROME/1/REF_CODE_ROME.csv
+ROME_REF_ENV_TRAVAIL,Référentiel des environnements de travail du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_REF_ENV_TRAVAIL/1/ROME_REF_ENV_TRAVAIL.csv
+ROME_REF_COMPETENCE,Référentiel des compétences du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_REF_COMPETENCE/1/ROME_REF_COMPETENCE.csv
+ROME_REF_ACTIV,Référentiel des activités du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_REF_ACTIV/1/ROME_REF_ACTIV.csv
+ROME_ENTETE_REGROUP,Liste des en-têtes des blocs des activités spécifiques présents sur les fiches emploi-métier,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_ENTETE_REGROUP/1/ROME_ENTETE_REGROUP.csv
+REF_APPELLATION,Référentiel des appellations du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/REF_APPELLATION/1/REF_APPELLATION.csv
+ROME_TYPE_REF,Liste des types de référentiels du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_TYPE_REF/1/ROME_TYPE_REF.csv
+ROME_TEXTE,Liste des textes présents sur les fiches emploi-métier,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_TEXTE/1/ROME_TEXTE.csv
+ROME_RUBRIQUE_MOBILITE,Liste des mobilités possibles entre deux métiers ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_RUBRIQUE_MOBILITE/1/ROME_RUBRIQUE_MOBILITE.csv
+ROME_COMPO_BLOC,Liste des blocs présents sur les fiches emploi-métier,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_COMPO_BLOC/1/ROME_COMPO_BLOC.csv
+ROME_DESC_RUBRIQUE,Liste des rubriques présentes sur les fiches emploi-métier,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_DESC_RUBRIQUE/1/ROME_DESC_RUBRIQUE.csv
+REF_CODE_ROME_RIASEC,Codification RIASEC associée à chaque métier ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/REF_CODE_ROME_RIASEC/1/REF_CODE_ROME_RIASEC.csv
+ROME_ACTIV_RIASEC,Codification RIASEC associée à chaque activité ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_ACTIV_RIASEC/1/ROME_ACTIV_RIASEC.csv
+ROME_GRAND_DOMAINE,Référentiel des grands domaines professionnels du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_GRAND_DOMAINE/1/ROME_GRAND_DOMAINE.csv
+ROME_DOMAINE_PRO,Référentiel des domaines professionnels du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_DOMAINE_PRO/1/ROME_DOMAINE_PRO.csv
+ROME_CR_GD_DP,Liste des métiers ROME, des grands domaines et des domaines professionnels correspondants,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_CR_GD_DP/1/ROME_CR_GD_DP.csv
+ROME_ITEM,Liste des items présents sur des fiches emploi-métier,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_ITEM/1/ROME_ITEM.csv
+ROME_COHERENCE_ITEM,Liste des métiers sur lesquels sont présents les items,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_COHERENCE_ITEM/1/ROME_COHERENCE_ITEM.csv
+ROME_CR_GD_DP_APPEL,Liste des appellations ROME, des métiers, des grands domaines et des domaines professionnels correspondants,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_CR_GD_DP_APPEL/1/ROME_CR_GD_DP_APPEL.csv
+ROME_ITEM_ARBO,Composition des arborescences du ROME,http://estor-vipa-21pckn.sip91.pole-emploi.intra/api/docs/rome/ROME_ITEM_ARBO/1/ROME_ITEM_ARBO.csv
